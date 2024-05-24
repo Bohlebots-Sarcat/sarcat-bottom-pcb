@@ -1941,7 +1941,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:ESCOM_24/2")
-		(at 195.58 31.75 0)
+		(at 214.63 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1950,7 +1950,7 @@
 		(fields_autoplaced yes)
 		(uuid "0664a780-2b24-48cd-b0c7-dda4921a593c")
 		(property "Reference" "ESCON-Dribbler"
-			(at 196.85 19.05 0)
+			(at 215.9 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -1958,7 +1958,7 @@
 			)
 		)
 		(property "Value" "24_2"
-			(at 186.69 20.32 0)
+			(at 205.74 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,7 +1967,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:ESCOM_24_2"
-			(at 203.2 20.32 0)
+			(at 222.25 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +1976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 31.75 0)
+			(at 214.63 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,7 +1985,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 31.75 0)
+			(at 214.63 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2130,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:ESCOM_24/2")
-		(at 129.54 31.75 0)
+		(at 137.16 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2139,7 +2139,7 @@
 		(fields_autoplaced yes)
 		(uuid "b691de76-aaae-457f-92e6-f51d8d8dd142")
 		(property "Reference" "ESCON3"
-			(at 130.81 19.05 0)
+			(at 138.43 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -2147,7 +2147,7 @@
 			)
 		)
 		(property "Value" "24_2"
-			(at 120.65 20.32 0)
+			(at 128.27 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,7 +2156,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:ESCOM_24_2"
-			(at 137.16 20.32 0)
+			(at 144.78 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,7 +2165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 31.75 0)
+			(at 137.16 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,7 +2174,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 31.75 0)
+			(at 137.16 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2235,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:ESCOM_24/2")
-		(at 160.02 31.75 0)
+		(at 171.45 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2244,7 +2244,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc88e4ca-7203-4b2c-a300-376f0787aaed")
 		(property "Reference" "ESCON4"
-			(at 161.29 19.05 0)
+			(at 172.72 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -2252,7 +2252,7 @@
 			)
 		)
 		(property "Value" "24_2"
-			(at 151.13 20.32 0)
+			(at 162.56 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2261,7 +2261,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:ESCOM_24_2"
-			(at 167.64 20.32 0)
+			(at 179.07 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,7 +2270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 31.75 0)
+			(at 171.45 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +2279,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 31.75 0)
+			(at 171.45 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2819,7 +2819,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:ESCOM_24/2")
-		(at 100.33 31.75 0)
+		(at 104.14 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2828,7 +2828,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7f785dc-9d40-4001-8bcb-9dad3a6c529d")
 		(property "Reference" "ESCON2"
-			(at 101.6 19.05 0)
+			(at 105.41 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -2836,7 +2836,7 @@
 			)
 		)
 		(property "Value" "24_2"
-			(at 91.44 20.32 0)
+			(at 95.25 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +2845,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:ESCOM_24_2"
-			(at 107.95 20.32 0)
+			(at 111.76 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,7 +2854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 31.75 0)
+			(at 104.14 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2863,7 +2863,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 31.75 0)
+			(at 104.14 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
