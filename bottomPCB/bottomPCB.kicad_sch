@@ -1466,44 +1466,43 @@
 				)
 			)
 		)
-		(symbol "bohlebots.lib:MICROMATCH-6"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "bohlebots.lib:Pfostenstecker_6_2x3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "X2"
-				(at -1.27 10.16 0)
+			(property "Reference" "U"
+				(at 0 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MICROMATCH-6"
-				(at -1.27 7.62 0)
+			(property "Value" "Pfostenstecker_6_2x3"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "BohleBots:MICROMATCH-6"
-				(at 0 0 0)
+			(property "Footprint" "BohleBots:HDR-TH_6P-P2.54-V-F-R2-C3-S2.54-4"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230314/29278A24539954283B80828B9C32CD4C.pdf"
+				(at -2.286 0.127 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
@@ -1516,196 +1515,387 @@
 					(hide yes)
 				)
 			)
-			(symbol "MICROMATCH-6_0_0"
+			(property "LCSC" "C5372863"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C5372863"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pfostenstecker_6_2x3_0_1"
 				(rectangle
-					(start -5.08 -12.7)
-					(end 2.54 5.08)
+					(start -2.54 5.08)
+					(end 2.54 -5.08)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(arc
-					(start -0.508 -10.668)
-					(mid -0.0022 -10.16)
-					(end -0.508 -9.652)
+				(circle
+					(center -1.27 3.81)
+					(radius 0.381)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(arc
-					(start -0.508 -8.128)
-					(mid -0.0022 -7.62)
-					(end -0.508 -7.112)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 -5.588)
-					(mid -0.0022 -5.08)
-					(end -0.508 -4.572)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 -3.048)
-					(mid -0.0022 -2.54)
-					(end -0.508 -2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 -0.508)
-					(mid -0.0022 0)
-					(end -0.508 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 2.032)
-					(mid -0.0022 2.54)
-					(end -0.508 3.048)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 -7.62 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MICROMATCH-6_1_0"
 				(pin unspecified line
-					(at 5.08 2.54 180)
+					(at -5.08 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1 1)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1 1)
 							)
 						)
 					)
 				)
 				(pin unspecified line
-					(at 5.08 -10.16 180)
+					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "~"
+					(name "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1 1)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "bohlebots.lib:Pfostenstecker_8_2x4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Pfostenstecker_8_2x4"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BohleBots:IDC-TH_8P-P2.54-V-R2-C4-S2.54"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/9658.html"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C5372864"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C5372864"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pfostenstecker_8_2x4_0_1"
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 5.08)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 3.81 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -3.81 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
 							)
 						)
 					)
@@ -1860,88 +2050,8 @@
 		)
 	)
 	(symbol
-		(lib_id "bohlebots.lib:MICROMATCH-6")
-		(at 26.67 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0320d199-5da4-47cf-8b85-dd13f27d3813")
-		(property "Reference" "I2C-Connector"
-			(at 25.4 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MICROMATCH-6"
-			(at 25.4 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BohleBots:MICROMATCH-6"
-			(at 26.67 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 26.67 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "0db9845e-2d9c-4056-a30b-0fe2c612cc5e")
-		)
-		(pin "2"
-			(uuid "79fc87e3-aa93-45b1-a0cd-8b2d12657371")
-		)
-		(pin "3"
-			(uuid "45ca1fea-c940-46bc-b130-e2fa581f893f")
-		)
-		(pin "4"
-			(uuid "a4efb5b9-2600-43e9-ace0-47126f39f1d0")
-		)
-		(pin "1"
-			(uuid "c46c6131-ebcf-4406-889a-65b81a25e452")
-		)
-		(pin "6"
-			(uuid "8676c20f-6c33-4211-b243-35d1ec747dbe")
-		)
-		(instances
-			(project "bottomPCB"
-				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
-					(reference "I2C-Connector")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bohlebots.lib:ESCOM_24/2")
-		(at 214.63 31.75 0)
+		(at 115.57 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1950,7 +2060,7 @@
 		(fields_autoplaced yes)
 		(uuid "0664a780-2b24-48cd-b0c7-dda4921a593c")
 		(property "Reference" "ESCON-Dribbler"
-			(at 215.9 19.05 0)
+			(at 116.84 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -1958,7 +2068,7 @@
 			)
 		)
 		(property "Value" "24_2"
-			(at 205.74 20.32 0)
+			(at 106.68 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,7 +2077,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:ESCOM_24_2"
-			(at 222.25 20.32 0)
+			(at 123.19 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +2086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 31.75 0)
+			(at 115.57 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,7 +2095,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 31.75 0)
+			(at 115.57 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,35 +2155,33 @@
 		)
 	)
 	(symbol
-		(lib_id "bohlebots.lib:XH-3AW_C722865")
-		(at 54.61 100.33 0)
+		(lib_id "bohlebots.lib:Pfostenstecker_8_2x4")
+		(at 22.86 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "94424ced-654c-4252-9d3e-9b9010754512")
-		(property "Reference" "Bat2"
-			(at 58.42 99.0599 0)
+		(uuid "10862fa1-1bbf-41ec-a19d-3678420bbe9b")
+		(property "Reference" "P1"
+			(at 22.86 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "XH-3AW_C722865"
-			(at 58.42 101.5999 0)
+		(property "Value" "Pfostenstecker_8_2x4"
+			(at 22.86 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "BohleBots:CONN-TH_XH-3AW-C722865"
-			(at 54.61 110.49 0)
+		(property "Footprint" "BohleBots:IDC-TH_8P-P2.54-V-R2-C4-S2.54"
+			(at 22.86 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2082,8 +2190,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/767072.html?ref=editor&logined=true"
-			(at 52.324 100.203 0)
+		(property "Datasheet" "https://item.szlcsc.com/9658.html"
+			(at 20.574 116.713 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +2201,197 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 100.33 0)
+			(at 22.86 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5372864"
+			(at 22.86 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "73f94757-d18c-4f3e-add3-8463671118f6")
+		)
+		(pin "4"
+			(uuid "ab86b115-0ab4-426e-83e1-504140508676")
+		)
+		(pin "1"
+			(uuid "03a2edc4-03cf-4b84-bbc0-a079e9ed7b86")
+		)
+		(pin "6"
+			(uuid "c3858edf-c08b-4b4f-9770-cecf5029eea3")
+		)
+		(pin "3"
+			(uuid "5919e9f5-8b24-4179-a61f-13cb978a0a80")
+		)
+		(pin "2"
+			(uuid "906fe61f-f094-4fe3-ada7-cb864c2afb94")
+		)
+		(pin "8"
+			(uuid "91dd9df5-0d54-4a40-86a9-36e5409a3c6a")
+		)
+		(pin "7"
+			(uuid "6cb5f53e-1f8c-43bb-8bef-f09b84b11b5d")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:Pfostenstecker_6_2x3")
+		(at 22.86 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "282f02ba-ac33-4aa6-8180-6c5faf9302b1")
+		(property "Reference" "U2"
+			(at 22.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pfostenstecker_6_2x3"
+			(at 22.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BohleBots:HDR-TH_6P-P2.54-V-F-R2-C3-S2.54-4"
+			(at 22.86 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230314/29278A24539954283B80828B9C32CD4C.pdf"
+			(at 20.574 134.493 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5372863"
+			(at 22.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "296a37d4-b7c3-485d-917e-28759f707be3")
+		)
+		(pin "2"
+			(uuid "e15283c9-ec2f-4639-86ad-b0b8d6a002dc")
+		)
+		(pin "5"
+			(uuid "28e2c11c-964f-4587-bea8-9c0e6ab5e1f7")
+		)
+		(pin "3"
+			(uuid "a65cceed-c250-4f54-848d-04e888be1517")
+		)
+		(pin "4"
+			(uuid "018e1a1f-998b-4c8d-b32f-376b0f09ce6b")
+		)
+		(pin "6"
+			(uuid "8bfbef4a-5712-4b16-b822-8cbeeac3911a")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:XH-3AW_C722865")
+		(at 54.61 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94424ced-654c-4252-9d3e-9b9010754512")
+		(property "Reference" "Bat2"
+			(at 58.42 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XH-3AW_C722865"
+			(at 58.42 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BohleBots:CONN-TH_XH-3AW-C722865"
+			(at 54.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/767072.html?ref=editor&logined=true"
+			(at 52.324 97.663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2400,7 @@
 			)
 		)
 		(property "LCSC" "C722865"
-			(at 54.61 100.33 0)
+			(at 54.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2428,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:ESCOM_24/2")
-		(at 137.16 31.75 0)
+		(at 115.57 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2139,7 +2437,7 @@
 		(fields_autoplaced yes)
 		(uuid "b691de76-aaae-457f-92e6-f51d8d8dd142")
 		(property "Reference" "ESCON3"
-			(at 138.43 19.05 0)
+			(at 116.84 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -2147,7 +2445,7 @@
 			)
 		)
 		(property "Value" "24_2"
-			(at 128.27 20.32 0)
+			(at 106.68 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,7 +2454,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:ESCOM_24_2"
-			(at 144.78 20.32 0)
+			(at 123.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,7 +2463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 31.75 0)
+			(at 115.57 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,7 +2472,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 31.75 0)
+			(at 115.57 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2533,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:ESCOM_24/2")
-		(at 171.45 31.75 0)
+		(at 115.57 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2244,7 +2542,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc88e4ca-7203-4b2c-a300-376f0787aaed")
 		(property "Reference" "ESCON4"
-			(at 172.72 19.05 0)
+			(at 116.84 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -2252,7 +2550,7 @@
 			)
 		)
 		(property "Value" "24_2"
-			(at 162.56 20.32 0)
+			(at 106.68 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2261,7 +2559,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:ESCOM_24_2"
-			(at 179.07 20.32 0)
+			(at 123.19 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,7 +2568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 31.75 0)
+			(at 115.57 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +2577,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 31.75 0)
+			(at 115.57 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2638,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:XH-3AW_C722865")
-		(at 54.61 87.63 0)
+		(at 54.61 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2349,7 +2647,7 @@
 		(fields_autoplaced yes)
 		(uuid "d25825b5-28ea-4bed-aa01-28d2fd059014")
 		(property "Reference" "Bat1"
-			(at 58.42 86.3599 0)
+			(at 58.42 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,7 +2656,7 @@
 			)
 		)
 		(property "Value" "XH-3AW_C722865"
-			(at 58.42 88.8999 0)
+			(at 58.42 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2367,7 +2665,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:CONN-TH_XH-3AW-C722865"
-			(at 54.61 97.79 0)
+			(at 54.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2377,7 +2675,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/767072.html?ref=editor&logined=true"
-			(at 52.324 87.503 0)
+			(at 52.324 84.963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +2685,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 87.63 0)
+			(at 54.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +2694,7 @@
 			)
 		)
 		(property "LCSC" "C722865"
-			(at 54.61 87.63 0)
+			(at 54.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,7 +2722,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:ESP32-WROOM-32")
-		(at 34.29 44.45 0)
+		(at 39.37 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2433,7 +2731,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd93e873-cfba-445f-9de7-f06c076c2894")
 		(property "Reference" "U1"
-			(at 34.29 11.43 0)
+			(at 39.37 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,7 +2739,7 @@
 			)
 		)
 		(property "Value" "ESP32-WROOM-32"
-			(at 34.29 13.97 0)
+			(at 39.37 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +2747,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:WIFIM-SMD_ESP32-WROOM-32-N4"
-			(at 34.29 54.61 0)
+			(at 39.37 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2757,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210719/C82899_2D52724B6FAFABC419BCF308C5944296.pdf"
-			(at 32.004 44.323 0)
+			(at 37.084 44.323 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,7 +2767,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 44.45 0)
+			(at 39.37 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,7 +2776,7 @@
 			)
 		)
 		(property "LCSC" "C82899"
-			(at 34.29 44.45 0)
+			(at 39.37 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2912,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:ESCOM_24/2")
-		(at 71.12 31.75 0)
+		(at 115.57 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2623,7 +2921,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4ae60ea-960f-43c2-b102-4635186356f6")
 		(property "Reference" "ESCON1"
-			(at 72.39 19.05 0)
+			(at 116.84 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -2631,7 +2929,7 @@
 			)
 		)
 		(property "Value" "24_2"
-			(at 62.23 20.32 0)
+			(at 106.68 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,7 +2938,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:ESCOM_24_2"
-			(at 78.74 20.32 0)
+			(at 123.19 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,7 +2947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 31.75 0)
+			(at 115.57 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2956,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 31.75 0)
+			(at 115.57 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2819,7 +3117,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:ESCOM_24/2")
-		(at 104.14 31.75 0)
+		(at 115.57 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2828,7 +3126,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7f785dc-9d40-4001-8bcb-9dad3a6c529d")
 		(property "Reference" "ESCON2"
-			(at 105.41 19.05 0)
+			(at 116.84 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -2836,7 +3134,7 @@
 			)
 		)
 		(property "Value" "24_2"
-			(at 95.25 20.32 0)
+			(at 106.68 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +3143,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:ESCOM_24_2"
-			(at 111.76 20.32 0)
+			(at 123.19 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,7 +3152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 31.75 0)
+			(at 115.57 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2863,7 +3161,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 31.75 0)
+			(at 115.57 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

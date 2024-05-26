@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "EC-20-flat")(type "KiCad")(uri "${KIPRJMOD}/lib/EC-20-flat.kicad_sym")(options "")(descr ""))
+)
