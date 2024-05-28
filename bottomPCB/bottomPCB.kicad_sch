@@ -3582,6 +3582,28 @@
 			)
 		)
 	)
+	(global_label "KICK"
+		(shape input)
+		(at 57.15 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f834a7a-7029-4ec9-bca0-9966c41448a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+16V"
 		(shape input)
 		(at 130.81 78.74 0)
@@ -3595,6 +3617,28 @@
 		(uuid "90476ca6-5242-4f3a-b3d2-4c0c2a5ea9b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 138.8752 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+16V"
+		(shape input)
+		(at 63.5 115.57 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6ef641b-0986-40de-9cda-1c438de5e673")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 107.5048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,6 +3908,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "KICK"
+		(shape input)
+		(at 50.8 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e249528e-b710-454f-bede-8ad35c676a73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5826,6 +5892,72 @@
 		)
 	)
 	(symbol
+		(lib_id "bohlebots.lib:GND")
+		(at 63.5 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c35926ec-d59e-46bd-a817-eeef3738f569")
+		(property "Reference" "#PWR016"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edad558b-5606-4858-9a72-9fc97d4f943f")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:XH-3AW_C722865")
 		(at 50.8 85.09 0)
 		(unit 1)
@@ -6407,7 +6539,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:KICKER")
-		(at 25.4 81.28 0)
+		(at 63.5 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6416,7 +6548,7 @@
 		(fields_autoplaced yes)
 		(uuid "f124bb9f-9790-4749-bbc1-c5a330d0cf6a")
 		(property "Reference" "Kicker1"
-			(at 27.94 83.1849 0)
+			(at 66.04 125.0949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6425,7 +6557,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 25.4 81.28 0)
+			(at 63.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6434,7 +6566,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:KICKER"
-			(at 15.24 90.17 0)
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6443,7 +6575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 81.28 0)
+			(at 63.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6452,7 +6584,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 81.28 0)
+			(at 63.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
