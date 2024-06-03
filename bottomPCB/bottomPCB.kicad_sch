@@ -341,6 +341,161 @@
 				)
 			)
 		)
+		(symbol "Bohlebots:LM1117IMPX-3_3_NOPB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM1117IMPX-3_3_NOPB"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BohleBots:SOT-223_L6.5-W3.5-P2.30-LS7.0-BR"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/109711.html"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C23984"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C23984"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM1117IMPX-3_3_NOPB_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM1117IMPX-3_3_NOPB_1_1"
+				(pin unspecified line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "TAB"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Bohlebots:PWR_FLAG"
 			(power)
 			(pin_numbers hide)
@@ -1544,6 +1699,126 @@
 					(at 0 0 90)
 					(length 0) hide
 					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "bohlebots.lib:+BATT"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+BATT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3117,6 +3392,102 @@
 				)
 			)
 		)
+		(symbol "bohlebots.lib:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "bohlebots.lib:Pfostenstecker_6_2x3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3801,6 +4172,163 @@
 				)
 			)
 		)
+		(symbol "bohlebots.lib:SMD-100nF"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMD-100nF"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BohleBots:C0603"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/362304.html"
+				(at -3.81 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C30926"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C30926"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMD-100nF_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMD-100nF_1_1"
+				(pin unspecified line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "bohlebots.lib:SMD-10k"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -4139,18 +4667,188 @@
 				)
 			)
 		)
+		(symbol "bohlebots.lib:XH-3AW_C722865"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XH-3AW_C722865"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BohleBots:CONN-TH_XH-3AW-C722865"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/767072.html?ref=editor&logined=true"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C722865"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C722865"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XH-3AW_C722865_0_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 3.81)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
-		(at 187.96 25.4)
+		(at 171.45 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01dd23f7-724b-4fa4-944e-40eefa3208b2")
 	)
 	(junction
-		(at 193.04 35.56)
+		(at 215.9 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "082fbcca-be94-4561-9132-1987252769f1")
+	)
+	(junction
+		(at 195.58 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "099a0b1f-73ac-41a4-93a2-c919322732af")
+	)
+	(junction
+		(at 176.53 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16b99a8d-879b-4794-b091-001a396bace3")
+	)
+	(junction
+		(at 223.52 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b80ea93-342d-41db-b642-6e13e89d62ed")
+	)
+	(junction
+		(at 182.88 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "229802e3-40b6-41fc-9f10-de1bf9862043")
 	)
 	(junction
 		(at 49.53 100.33)
@@ -4159,10 +4857,28 @@
 		(uuid "2f834893-54ae-47f8-884e-4bf7ecccb464")
 	)
 	(junction
-		(at 196.85 35.56)
+		(at 266.7 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43459800-6809-49e9-b516-0318cfebe232")
+	)
+	(junction
+		(at 266.7 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cc2bbae-4a33-4ec7-8642-dfcbe6e68a6b")
+	)
+	(junction
+		(at 180.34 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6411b632-710f-4b57-9f66-6335ac4c3613")
+	)
+	(junction
+		(at 223.52 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a4f31e2-fa2a-4920-a826-1122352da066")
 	)
 	(junction
 		(at 49.53 185.42)
@@ -4171,13 +4887,13 @@
 		(uuid "6fe8eb1c-685e-4973-a61c-10e0efce94d8")
 	)
 	(junction
-		(at 184.15 25.4)
+		(at 167.64 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82f1af85-6dd9-4410-af1a-441b0ba2fa6d")
 	)
 	(junction
-		(at 213.36 25.4)
+		(at 196.85 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84652acf-7f01-4309-b495-ad64150e2bd0")
@@ -4189,13 +4905,19 @@
 		(uuid "9fa9ba3e-7606-4a8c-b036-292094cb456a")
 	)
 	(junction
+		(at 179.07 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7ff174c-4863-49f3-bf36-b97afe266c24")
+	)
+	(junction
 		(at 59.69 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aba29b5b-c511-4ea0-8738-a2be5e8c3dc1")
 	)
 	(junction
-		(at 207.01 25.4)
+		(at 190.5 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aef2c0a1-e123-4f1c-9d0e-9dbe3a761f98")
@@ -4207,10 +4929,22 @@
 		(uuid "b7316e13-84dc-42d1-ae3e-2002589f7bb1")
 	)
 	(junction
+		(at 266.7 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d81096bd-5ad8-460a-bda1-285e818af9ef")
+	)
+	(junction
 		(at 49.53 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e348708c-46f1-4cec-81d0-3128e4331b8d")
+	)
+	(junction
+		(at 193.04 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f35244ab-89ff-49dc-91d2-224b779aa3e2")
 	)
 	(no_connect
 		(at 130.81 38.1)
@@ -4221,6 +4955,10 @@
 		(uuid "2ab22d75-83a2-43b8-9028-1289d255c42a")
 	)
 	(no_connect
+		(at 173.99 66.04)
+		(uuid "7a04938a-0777-4794-b9f7-e9bc56213872")
+	)
+	(no_connect
 		(at 35.56 146.05)
 		(uuid "7a1abf98-6e46-438d-b5cf-1deada86f4e5")
 	)
@@ -4229,8 +4967,16 @@
 		(uuid "841cd764-49c4-43ec-9f34-06da4feb4b7a")
 	)
 	(no_connect
+		(at 173.99 78.74)
+		(uuid "842f42ac-8fe9-4cdd-a700-90f125b89db5")
+	)
+	(no_connect
 		(at 130.81 125.73)
 		(uuid "9c3bd236-d9c6-4603-85d3-1ac8403c5899")
+	)
+	(no_connect
+		(at 198.12 77.47)
+		(uuid "ae163cb8-f3a2-4340-ac45-a91bca8e5d17")
 	)
 	(no_connect
 		(at 35.56 101.6)
@@ -4266,7 +5012,17 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 24.13) (xy 184.15 25.4)
+			(xy 238.76 73.66) (xy 266.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05be567c-0c1a-4e13-956f-d2a1357025b1")
+	)
+	(wire
+		(pts
+			(xy 167.64 25.4) (xy 167.64 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4286,6 +5042,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 107.95) (xy 223.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc84387-6c61-4008-9ba3-a204ac58cdfb")
+	)
+	(wire
+		(pts
 			(xy 81.28 31.75) (xy 100.33 31.75)
 		)
 		(stroke
@@ -4296,6 +5062,26 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 63.5) (xy 264.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e408083-7f72-4319-b1fd-6a37c6ec7d03")
+	)
+	(wire
+		(pts
+			(xy 215.9 96.52) (xy 215.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1088144a-08e8-4ad7-9327-81fe18c2c8be")
+	)
+	(wire
+		(pts
 			(xy 102.87 66.04) (xy 102.87 67.31)
 		)
 		(stroke
@@ -4303,6 +5089,16 @@
 			(type default)
 		)
 		(uuid "117f36bd-fe6d-4c16-9313-52baa714d56c")
+	)
+	(wire
+		(pts
+			(xy 223.52 106.68) (xy 223.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "134dd562-a6bd-42f2-85f6-30bb145c36ca")
 	)
 	(wire
 		(pts
@@ -4346,6 +5142,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 96.52) (xy 215.9 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d5c72e0-d3fb-4411-bce0-72088734e7ad")
+	)
+	(wire
+		(pts
 			(xy 49.53 100.33) (xy 49.53 102.87)
 		)
 		(stroke
@@ -4356,7 +5162,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 24.13) (xy 220.98 25.4)
+			(xy 204.47 25.4) (xy 204.47 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4406,13 +5212,43 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 39.37) (xy 196.85 35.56)
+			(xy 238.76 63.5) (xy 238.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28ef10af-1235-44a6-a04f-865dfcecaa65")
+	)
+	(wire
+		(pts
+			(xy 223.52 97.79) (xy 237.49 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a031126-ec5c-418f-8d73-d0fab4de1c2d")
+	)
+	(wire
+		(pts
+			(xy 180.34 40.64) (xy 180.34 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2bf49751-abb2-4580-9a37-d4d91469fa71")
+	)
+	(wire
+		(pts
+			(xy 266.7 73.66) (xy 266.7 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c686909-d442-4fb3-a360-c0087de115e1")
 	)
 	(wire
 		(pts
@@ -4426,7 +5262,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 35.56) (xy 213.36 35.56)
+			(xy 180.34 36.83) (xy 196.85 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4496,6 +5332,26 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 97.79) (xy 223.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a2d613-5cb2-4c4a-acab-e9aebc2d4c7d")
+	)
+	(wire
+		(pts
+			(xy 238.76 40.64) (xy 238.76 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47de5392-f44b-4bb1-95c5-43f81f76f472")
+	)
+	(wire
+		(pts
 			(xy 97.79 118.11) (xy 102.87 118.11)
 		)
 		(stroke
@@ -4546,6 +5402,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 50.8) (xy 266.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57346584-58cb-4fd9-a9d6-2cac13df3607")
+	)
+	(wire
+		(pts
 			(xy 102.87 124.46) (xy 102.87 125.73)
 		)
 		(stroke
@@ -4587,6 +5453,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 107.95) (xy 215.9 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60c825e6-5d03-4632-a4bc-dbcab6015159")
+	)
+	(wire
+		(pts
 			(xy 102.87 63.5) (xy 102.87 62.23)
 		)
 		(stroke
@@ -4617,7 +5493,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 25.4) (xy 207.01 25.4)
+			(xy 187.96 26.67) (xy 190.5 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4647,6 +5523,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 97.79) (xy 223.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66de818d-58ef-4954-9862-8f0054a05cde")
+	)
+	(wire
+		(pts
 			(xy 49.53 185.42) (xy 43.18 185.42)
 		)
 		(stroke
@@ -4667,7 +5553,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 25.4) (xy 213.36 25.4)
+			(xy 204.47 26.67) (xy 196.85 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4687,7 +5573,47 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 24.13) (xy 207.01 25.4)
+			(xy 195.58 62.23) (xy 195.58 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76556c9a-cc25-46be-a64f-820bce88d0cf")
+	)
+	(wire
+		(pts
+			(xy 173.99 81.28) (xy 182.88 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76fad5fb-8a87-4113-a9fe-0f27ca5541b1")
+	)
+	(wire
+		(pts
+			(xy 264.16 35.56) (xy 266.7 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7777bc1c-8508-495b-a46f-959346e8f5b1")
+	)
+	(wire
+		(pts
+			(xy 266.7 41.91) (xy 266.7 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77cf903a-7ecb-4581-b887-3cdf95346d67")
+	)
+	(wire
+		(pts
+			(xy 190.5 25.4) (xy 190.5 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4704,6 +5630,16 @@
 			(type default)
 		)
 		(uuid "7a0a8d27-ce64-49d7-b007-03c91789acd1")
+	)
+	(wire
+		(pts
+			(xy 223.52 107.95) (xy 237.49 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf6de36-c5fb-4bd4-9e4b-7306ead373e0")
 	)
 	(wire
 		(pts
@@ -4737,7 +5673,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 35.56) (xy 196.85 35.56)
+			(xy 176.53 36.83) (xy 180.34 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4797,7 +5733,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 25.4) (xy 213.36 25.4)
+			(xy 190.5 26.67) (xy 196.85 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4847,7 +5783,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 25.4) (xy 189.23 25.4)
+			(xy 171.45 26.67) (xy 172.72 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4868,7 +5804,17 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 25.4) (xy 187.96 25.4)
+			(xy 182.88 81.28) (xy 193.04 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe91450-69c4-467e-9549-289a0d66cf2f")
+	)
+	(wire
+		(pts
+			(xy 167.64 26.67) (xy 171.45 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4878,13 +5824,23 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 30.48) (xy 196.85 35.56)
+			(xy 180.34 31.75) (xy 180.34 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "afda6cea-e456-4792-a9e5-be1ab07db3c6")
+	)
+	(wire
+		(pts
+			(xy 193.04 81.28) (xy 193.04 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b01e5eb4-0e55-454e-8a99-535a9354b2a8")
 	)
 	(wire
 		(pts
@@ -4895,6 +5851,26 @@
 			(type default)
 		)
 		(uuid "b0c17d1f-df48-4506-b37e-e73a5a250ab7")
+	)
+	(wire
+		(pts
+			(xy 207.01 96.52) (xy 207.01 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b13dd404-5483-4441-8953-5ac30dda1867")
+	)
+	(wire
+		(pts
+			(xy 264.16 58.42) (xy 266.7 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b171a4cd-4b7e-4f9e-ab63-1556889ba91a")
 	)
 	(wire
 		(pts
@@ -5048,6 +6024,26 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 50.8) (xy 266.7 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58e73c8-f00a-423e-96f5-3813dd72ebde")
+	)
+	(wire
+		(pts
+			(xy 193.04 80.01) (xy 193.04 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d8166e-b5a0-4833-a558-0449a609324b")
+	)
+	(wire
+		(pts
 			(xy 102.87 95.25) (xy 102.87 96.52)
 		)
 		(stroke
@@ -5088,6 +6084,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 63.5) (xy 173.99 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd0d2551-ed45-4e90-b232-06ee747fb0d1")
+	)
+	(wire
+		(pts
 			(xy 81.28 39.37) (xy 97.79 39.37)
 		)
 		(stroke
@@ -5098,13 +6104,33 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 35.56) (xy 193.04 35.56)
+			(xy 171.45 36.83) (xy 176.53 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "deb3669b-a9c3-4a27-9afb-c9083f50e339")
+	)
+	(wire
+		(pts
+			(xy 173.99 76.2) (xy 173.99 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df47bb7a-b7e4-46de-b476-04cf664d1da6")
+	)
+	(wire
+		(pts
+			(xy 264.16 40.64) (xy 264.16 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfb79358-4c85-4dae-b509-ac06f7a9e510")
 	)
 	(wire
 		(pts
@@ -5128,13 +6154,23 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 25.4) (xy 184.15 25.4)
+			(xy 163.83 26.67) (xy 167.64 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e3f86efb-3403-4bba-884d-0551d01dd7fb")
+	)
+	(wire
+		(pts
+			(xy 207.01 107.95) (xy 215.9 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e502c718-83c9-4f3b-9106-1c7e1564fb5e")
 	)
 	(wire
 		(pts
@@ -5199,6 +6235,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 63.5) (xy 179.07 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b4d71e-354c-45c2-b52f-1f2c43b26052")
+	)
+	(wire
+		(pts
 			(xy 81.28 53.34) (xy 102.87 53.34)
 		)
 		(stroke
@@ -5219,7 +6265,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 39.37) (xy 193.04 35.56)
+			(xy 176.53 40.64) (xy 176.53 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5423,7 +6469,7 @@
 	)
 	(global_label "+16V"
 		(shape input)
-		(at 184.15 24.13 90)
+		(at 167.64 25.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5433,7 +6479,7 @@
 		)
 		(uuid "234addd4-9add-4aff-b618-db8b7dee7514")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.15 16.0648 90)
+			(at 167.64 17.3348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +6579,7 @@
 	)
 	(global_label "+16V"
 		(shape output)
-		(at 161.29 27.94 90)
+		(at 195.58 62.23 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5543,7 +6589,7 @@
 		)
 		(uuid "35b151d6-740f-49b7-924c-80c32d9682ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.29 19.8748 90)
+			(at 195.58 54.1648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6301,6 +7347,28 @@
 			)
 		)
 	)
+	(global_label "+16V"
+		(shape input)
+		(at 223.52 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e67e01e6-84ab-4342-8a3e-ab7d0924f0ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.52 85.9148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EN"
 		(shape input)
 		(at 25.4 27.94 180)
@@ -6479,6 +7547,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Bohlebots:SMD-220uF_50V")
+		(at 237.49 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "015d9707-d4ef-4232-a135-563da95f5322")
+		(property "Reference" "C5"
+			(at 241.3 101.8539 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD-220uF_50V"
+			(at 241.3 104.3939 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BohleBots:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20170630/1498816639192.pdf"
+			(at 235.204 102.743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C125977"
+			(at 237.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb382586-07e3-4be6-96e0-4da4244fea6e")
+		)
+		(pin "2"
+			(uuid "bf0b0a00-2e96-44db-b51f-cfd6622e27ff")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:ESCOM_24/2")
 		(at 115.57 146.05 0)
 		(unit 1)
@@ -6584,6 +7733,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Bohlebots:GND")
+		(at 215.9 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07a5931a-b7f0-4230-99db-64ccdd22833f")
+		(property "Reference" "#PWR038"
+			(at 215.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38741ec9-5af9-447b-a31e-903ce0eab9c7")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:PWR_FLAG")
+		(at 179.07 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "096d7e5b-88d4-434e-99b9-9f1ee4b8e1d7")
+		(property "Reference" "#FLG04"
+			(at 179.07 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 179.07 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d926d1e-093b-4633-9c59-a87da588312d")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Bohlebots:SMD-10k")
 		(at 49.53 91.44 90)
 		(unit 1)
@@ -6658,6 +7939,72 @@
 			(project "bottomPCB"
 				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bohlebots:+3.3V")
+		(at 266.7 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fd03203-d7f7-4f36-abb9-97c1f36289d7")
+		(property "Reference" "#PWR035"
+			(at 266.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 266.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 266.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f333723-9605-4b38-8f42-414e91fd729d")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6755,6 +8102,72 @@
 			(project "bottomPCB"
 				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
 					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bohlebots:GND")
+		(at 264.16 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11192a24-2d5f-4168-84a4-7fa2416ebc3c")
+		(property "Reference" "#PWR034"
+			(at 264.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "628c5caf-756b-483a-a056-ed9c90f3b801")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6860,6 +8273,72 @@
 			(project "bottomPCB"
 				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
 					(reference "ESCON2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bohlebots:+3.3V")
+		(at 266.7 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21cf6737-e1c5-401f-a56a-be028f41693f")
+		(property "Reference" "#PWR036"
+			(at 266.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 266.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b2d3cb4-6f16-4679-acf1-d851b4bdd3df")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7102,6 +8581,73 @@
 		)
 	)
 	(symbol
+		(lib_id "bohlebots.lib:PWR_FLAG")
+		(at 195.58 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a758be0-0d08-4386-8c0b-205942d8ec79")
+		(property "Reference" "#FLG06"
+			(at 193.675 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 191.77 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 195.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76ba454b-8d90-4303-bd1b-5484759a3320")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:+3.3V")
 		(at 92.71 185.42 270)
 		(unit 1)
@@ -7170,7 +8716,7 @@
 	)
 	(symbol
 		(lib_id "Bohlebots:R78K5")
-		(at 196.85 29.21 0)
+		(at 180.34 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7179,7 +8725,7 @@
 		(fields_autoplaced yes)
 		(uuid "30fa1ef3-46a9-478d-af29-4a2382e242f8")
 		(property "Reference" "R78K2"
-			(at 196.85 21.59 0)
+			(at 180.34 22.86 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7188,7 +8734,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 200.66 31.75 0)
+			(at 184.15 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7197,7 +8743,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:R785K"
-			(at 196.85 31.75 0)
+			(at 180.34 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +8752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 31.75 0)
+			(at 184.15 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,7 +8761,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 29.21 0)
+			(at 180.34 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,6 +8782,90 @@
 			(project "bottomPCB"
 				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
 					(reference "R78K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:XH-3AW_C722865")
+		(at 168.91 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d3eb887-53a5-4def-94ab-eb02ef2d04c8")
+		(property "Reference" "U7"
+			(at 165.1 67.3101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AKKU 2"
+			(at 165.1 64.7701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BohleBots:CONN-TH_XH-3AW-C722865"
+			(at 168.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/767072.html?ref=editor&logined=true"
+			(at 171.196 66.167 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C722865"
+			(at 168.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87a6c46a-cd23-4d3c-be48-70196eea52a1")
+		)
+		(pin "3"
+			(uuid "01258504-6607-4c30-8aa6-e1693302f945")
+		)
+		(pin "2"
+			(uuid "3c0b348c-a6d3-467b-9723-1443c3464ee2")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -7560,6 +9190,86 @@
 		)
 	)
 	(symbol
+		(lib_id "bohlebots.lib:SMD-100nF")
+		(at 223.52 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59ab7005-d0e9-4017-98a3-2e5723a14f69")
+		(property "Reference" "C6"
+			(at 224.282 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMD-100nF"
+			(at 217.424 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "BohleBots:C0603"
+			(at 233.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/362304.html"
+			(at 220.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C30926"
+			(at 223.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e1b0dcd-5a41-4a28-9df2-f4c81b670d54")
+		)
+		(pin "1"
+			(uuid "280caea2-f2dc-455e-9aa3-d64162c5b61d")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Bohlebots:SMD-10k")
 		(at 55.88 91.44 90)
 		(unit 1)
@@ -7729,7 +9439,7 @@
 	)
 	(symbol
 		(lib_id "Bohlebots:PWR_FLAG")
-		(at 220.98 24.13 0)
+		(at 204.47 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7737,7 +9447,7 @@
 		(dnp no)
 		(uuid "6b0b2046-2a6f-42e5-a8c2-c5ea401eecfb")
 		(property "Reference" "#FLG03"
-			(at 220.98 22.225 0)
+			(at 204.47 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7746,7 +9456,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 226.06 24.13 0)
+			(at 209.55 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7754,7 +9464,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 24.13 0)
+			(at 204.47 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7763,7 +9473,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 24.13 0)
+			(at 204.47 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7772,7 +9482,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 220.98 24.13 0)
+			(at 204.47 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,7 +9826,7 @@
 	)
 	(symbol
 		(lib_id "Bohlebots:+5V")
-		(at 207.01 24.13 0)
+		(at 190.5 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8125,7 +9835,7 @@
 		(fields_autoplaced yes)
 		(uuid "73a04259-c604-4d64-9944-723531c9afe0")
 		(property "Reference" "#PWR019"
-			(at 207.01 27.94 0)
+			(at 190.5 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8134,7 +9844,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 207.01 19.05 0)
+			(at 190.5 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8142,7 +9852,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 24.13 0)
+			(at 190.5 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,7 +9861,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 24.13 0)
+			(at 190.5 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8160,7 +9870,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 207.01 24.13 0)
+			(at 190.5 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8175,6 +9885,158 @@
 			(project "bottomPCB"
 				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:PWR_FLAG")
+		(at 266.7 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7421b666-ab6b-4a5e-aa73-811c68262748")
+		(property "Reference" "#FLG07"
+			(at 268.605 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 270.51 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 266.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f1808f4-dcdb-45ac-ac8a-9a25f983e51c")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bohlebots:LM1117IMPX-3_3_NOPB")
+		(at 251.46 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7808675e-e907-4f5b-bb01-72f0f5f6f15a")
+		(property "Reference" "U8"
+			(at 251.46 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM1117IMPX-3_3_NOPB"
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BohleBots:SOT-223_L6.5-W3.5-P2.30-LS7.0-BR"
+			(at 251.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/109711.html"
+			(at 249.174 37.973 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23984"
+			(at 251.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95a7012a-4c4d-4598-aa21-accdd02ff140")
+		)
+		(pin "2"
+			(uuid "188bae8e-aae6-4858-93fd-7bc7129f641f")
+		)
+		(pin "3"
+			(uuid "70026271-0ac7-4e99-b80b-ca11c0e9dbff")
+		)
+		(pin "4"
+			(uuid "e5ffc092-7f6b-46ec-8a32-4b3b4ec0281d")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -8315,7 +10177,7 @@
 	)
 	(symbol
 		(lib_id "Bohlebots:GND")
-		(at 196.85 39.37 0)
+		(at 180.34 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8323,7 +10185,7 @@
 		(dnp no)
 		(uuid "829874fc-bac4-4acf-ba78-77646c28a04b")
 		(property "Reference" "#PWR018"
-			(at 196.85 45.72 0)
+			(at 180.34 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8332,7 +10194,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.644 39.37 0)
+			(at 183.134 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8340,7 +10202,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 39.37 0)
+			(at 180.34 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8349,7 +10211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 39.37 0)
+			(at 180.34 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8358,7 +10220,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 39.37 0)
+			(at 180.34 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8439,6 +10301,72 @@
 			(project "bottomPCB"
 				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:+BATT")
+		(at 182.88 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85187755-bc55-48ec-815a-14677f429c30")
+		(property "Reference" "#PWR029"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 182.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4311347-6e7f-474d-82da-8f90625c4c74")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8647,7 +10575,7 @@
 	)
 	(symbol
 		(lib_id "Bohlebots:PWR_FLAG")
-		(at 180.34 25.4 0)
+		(at 163.83 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8655,7 +10583,7 @@
 		(dnp no)
 		(uuid "92dae175-b941-4cd1-bb7d-b8fe7fc58e49")
 		(property "Reference" "#FLG01"
-			(at 180.34 23.495 0)
+			(at 163.83 24.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8664,7 +10592,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 175.26 25.4 0)
+			(at 158.75 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8672,7 +10600,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 25.4 0)
+			(at 163.83 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8681,7 +10609,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 25.4 0)
+			(at 163.83 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8690,7 +10618,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 180.34 25.4 0)
+			(at 163.83 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8839,6 +10767,139 @@
 			(project "bottomPCB"
 				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bohlebots:+5V")
+		(at 238.76 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "953f3e3c-75bb-42fa-8582-949de98195ce")
+		(property "Reference" "#PWR032"
+			(at 242.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 237.49 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6044716f-5920-4a72-9ce6-eec0b24a62ce")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:GND")
+		(at 182.88 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "971c5b16-0bce-417a-add0-3e128f93a573")
+		(property "Reference" "#PWR030"
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c9516ce-6939-4964-a761-781ebd0c4468")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9058,6 +11119,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Bohlebots:LM1117IMPX-3_3_NOPB")
+		(at 251.46 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2d43a8f-d166-4e63-b1b9-8b8e5f7649f9")
+		(property "Reference" "U9"
+			(at 251.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM1117IMPX-3_3_NOPB"
+			(at 251.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BohleBots:SOT-223_L6.5-W3.5-P2.30-LS7.0-BR"
+			(at 251.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/109711.html"
+			(at 249.174 60.833 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23984"
+			(at 251.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46bea657-45b2-4295-b327-5d82231858c3")
+		)
+		(pin "2"
+			(uuid "662f9d1f-10e1-4816-bc9f-81ec90041dc4")
+		)
+		(pin "3"
+			(uuid "4e347bbe-82b7-4ef3-831e-669c77bf870c")
+		)
+		(pin "4"
+			(uuid "e6b66fc1-8be4-4f32-a112-53cba25e5148")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:GND")
 		(at 60.96 20.32 90)
 		(unit 1)
@@ -9207,7 +11353,7 @@
 	)
 	(symbol
 		(lib_id "Bohlebots:SMD-680uF")
-		(at 187.96 30.48 0)
+		(at 171.45 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9215,7 +11361,7 @@
 		(dnp no)
 		(uuid "a8b96c10-2224-464b-abaf-8d06961d5a46")
 		(property "Reference" "C1"
-			(at 186.69 27.94 0)
+			(at 170.18 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9224,7 +11370,7 @@
 			)
 		)
 		(property "Value" "SMD-680uF"
-			(at 179.07 31.75 0)
+			(at 162.56 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9233,7 +11379,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 183.896 39.497 0)
+			(at 167.386 40.767 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9243,7 +11389,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20170630/1498816639192.pdf"
-			(at 175.26 29.21 0)
+			(at 158.75 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9253,7 +11399,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 30.48 0)
+			(at 171.45 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9262,7 +11408,7 @@
 			)
 		)
 		(property "LCSC" "C335987"
-			(at 177.546 29.337 0)
+			(at 161.036 30.607 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9287,7 +11433,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:Switch")
-		(at 161.29 33.02 0)
+		(at 195.58 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9296,7 +11442,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9006a1f-7dcd-4ba8-9c78-955edb0c9d85")
 		(property "Reference" "U3"
-			(at 165.1 31.7499 0)
+			(at 199.39 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9305,7 +11451,7 @@
 			)
 		)
 		(property "Value" "Switch"
-			(at 165.1 34.2899 0)
+			(at 199.39 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9314,7 +11460,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:SW-TH_MT-0-103-A101-M200-RS"
-			(at 161.29 43.18 0)
+			(at 195.58 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9324,7 +11470,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/1879284.html"
-			(at 159.004 32.893 0)
+			(at 193.294 72.263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9334,7 +11480,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 33.02 0)
+			(at 195.58 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9343,7 +11489,7 @@
 			)
 		)
 		(property "LCSC" "C1788498"
-			(at 161.29 33.02 0)
+			(at 195.58 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9443,6 +11589,72 @@
 			(project "bottomPCB"
 				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bohlebots:+5V")
+		(at 238.76 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1d9c783-ecd5-402d-a06a-795cd0ba192d")
+		(property "Reference" "#PWR031"
+			(at 242.57 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 237.236 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 238.76 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5e381a5-d73d-480a-8efb-5ec8a2d10b7e")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9777,7 +11989,7 @@
 	)
 	(symbol
 		(lib_id "Bohlebots:PWR_FLAG")
-		(at 193.04 39.37 180)
+		(at 176.53 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9785,7 +11997,7 @@
 		(dnp no)
 		(uuid "ba13cf90-fa12-42cc-a534-b2ef6b65009a")
 		(property "Reference" "#FLG02"
-			(at 193.04 41.275 0)
+			(at 176.53 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9794,7 +12006,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 188.214 44.196 0)
+			(at 171.704 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9803,7 +12015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 39.37 0)
+			(at 176.53 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9812,7 +12024,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 39.37 0)
+			(at 176.53 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9821,7 +12033,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 193.04 39.37 0)
+			(at 176.53 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9836,6 +12048,73 @@
 			(project "bottomPCB"
 				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:PWR_FLAG")
+		(at 193.04 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb0d8d75-5edc-4937-ba76-44c4f1cc7521")
+		(property "Reference" "#FLG05"
+			(at 194.945 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 196.85 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 193.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f127188-7f05-4159-a33a-7772e6bba23f")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -9910,7 +12189,7 @@
 	)
 	(symbol
 		(lib_id "Bohlebots:SMD-220uF_50V")
-		(at 213.36 30.48 0)
+		(at 196.85 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9919,7 +12198,7 @@
 		(fields_autoplaced yes)
 		(uuid "c57c67f9-6989-42be-8df0-6451fd4c18c0")
 		(property "Reference" "C2"
-			(at 217.17 29.4639 0)
+			(at 200.66 30.7339 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9928,7 +12207,7 @@
 			)
 		)
 		(property "Value" "RVT1A221M0605-C72494"
-			(at 217.17 32.0039 0)
+			(at 200.66 33.2739 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9937,7 +12216,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 213.36 40.64 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9947,7 +12226,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20170630/1498816639192.pdf"
-			(at 211.074 30.353 0)
+			(at 194.564 31.623 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9957,7 +12236,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 30.48 0)
+			(at 196.85 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9966,7 +12245,7 @@
 			)
 		)
 		(property "LCSC" "C125977"
-			(at 213.36 30.48 0)
+			(at 196.85 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10328,6 +12607,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Bohlebots:GND")
+		(at 264.16 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1b91fad-664c-4f3e-85af-f76ba5449a75")
+		(property "Reference" "#PWR033"
+			(at 264.16 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51e2daca-e01b-4273-9c92-f27e981496fa")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:ESCOM_24/2")
 		(at 115.57 27.94 0)
 		(unit 1)
@@ -10634,6 +12979,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Bohlebots:+3.3V")
+		(at 215.9 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec04dae7-8cd3-454f-980d-670841493f07")
+		(property "Reference" "#PWR037"
+			(at 215.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 215.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 215.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9bb99d6-987f-4c01-be76-9c246684033a")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:SMD-10k")
 		(at 64.77 154.94 270)
 		(unit 1)
@@ -10809,6 +13220,170 @@
 			(project "bottomPCB"
 				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
 					(reference "Kicker1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:XH-3AW_C722865")
+		(at 168.91 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa08e471-198f-43f8-b36c-84227f973724")
+		(property "Reference" "U6"
+			(at 165.1 80.0101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AKKU 1"
+			(at 165.1 77.4701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BohleBots:CONN-TH_XH-3AW-C722865"
+			(at 168.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/767072.html?ref=editor&logined=true"
+			(at 171.196 78.867 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C722865"
+			(at 168.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3b92b28-0a9e-4f2d-b270-42c65d160d6e")
+		)
+		(pin "3"
+			(uuid "bd185c4a-2e82-4206-807e-ba0c8c23dc2e")
+		)
+		(pin "2"
+			(uuid "910e4529-3597-453a-bbe1-3a77d0a33d0d")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bohlebots:SMD-220uF_50V")
+		(at 207.01 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd3b6849-10b8-4b3b-8c64-495ff9dd0aaa")
+		(property "Reference" "C4"
+			(at 207.518 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD-220uF"
+			(at 201.422 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BohleBots:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
+			(at 207.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20170630/1498816639192.pdf"
+			(at 204.724 102.743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C125977"
+			(at 207.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5cd7fe1a-ac0f-4ac2-856e-9024272893c5")
+		)
+		(pin "1"
+			(uuid "c93d6889-5120-4eb1-a30f-92b6e79cedf5")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "C4")
 					(unit 1)
 				)
 			)
