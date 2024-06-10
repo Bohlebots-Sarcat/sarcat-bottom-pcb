@@ -5664,224 +5664,6 @@
 				)
 			)
 		)
-		(symbol "bohlebots.lib:Switch"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Switch"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "BohleBots:SW-TH_MT-0-103-A101-M200-RS"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/1879284.html"
-				(at -2.286 0.127 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C1788498"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "C1788498"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Switch_0_1"
-				(circle
-					(center -2.54 -1.27)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.778) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 0.254) (xy 2.032 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy 1.778 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.778) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 1.524)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 2.54 -1.27)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -2.54 -5.08 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "bohlebots.lib:Taster_Led"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6548,12 +6330,6 @@
 		(uuid "082fbcca-be94-4561-9132-1987252769f1")
 	)
 	(junction
-		(at 195.58 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "099a0b1f-73ac-41a4-93a2-c919322732af")
-	)
-	(junction
 		(at 214.63 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6570,6 +6346,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a258d8e-279a-418a-baa5-7cce5d251a1a")
+	)
+	(junction
+		(at 195.58 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f684696-40f8-4a7a-81af-0bbafc23472c")
 	)
 	(junction
 		(at 248.92 48.26)
@@ -6748,10 +6530,6 @@
 		(uuid "a88bed3d-08e0-457d-9478-2f4d036c98d9")
 	)
 	(no_connect
-		(at 198.12 77.47)
-		(uuid "ae163cb8-f3a2-4340-ac45-a91bca8e5d17")
-	)
-	(no_connect
 		(at 35.56 101.6)
 		(uuid "b329bdbf-e1d3-414a-8eed-af0dfbce19bf")
 	)
@@ -6868,6 +6646,16 @@
 			(type default)
 		)
 		(uuid "134dd562-a6bd-42f2-85f6-30bb145c36ca")
+	)
+	(wire
+		(pts
+			(xy 195.58 67.31) (xy 195.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136aa5e3-3b7d-4dff-9e69-f98f2f2d2af3")
 	)
 	(wire
 		(pts
@@ -7231,7 +7019,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 81.28) (xy 193.04 81.28)
+			(xy 173.99 81.28) (xy 195.58 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7700,16 +7488,6 @@
 			(type default)
 		)
 		(uuid "ae0c0e75-3382-4673-b214-f1f221d8d097")
-	)
-	(wire
-		(pts
-			(xy 193.04 77.47) (xy 193.04 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b01e5eb4-0e55-454e-8a99-535a9354b2a8")
 	)
 	(wire
 		(pts
@@ -15778,90 +15556,6 @@
 			(project "bottomPCB"
 				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
 					(reference "LB-S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bohlebots.lib:Switch")
-		(at 195.58 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9006a1f-7dcd-4ba8-9c78-955edb0c9d85")
-		(property "Reference" "Switch1"
-			(at 199.39 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Switch"
-			(at 199.39 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BohleBots:SW-TH_MT-0-103-A101-M200-RS"
-			(at 195.58 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/1879284.html"
-			(at 193.294 72.263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1788498"
-			(at 195.58 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14d4f9bd-67ec-4a1a-b8fb-43cd4fc5cab2")
-		)
-		(pin "2"
-			(uuid "c829aa30-7025-4913-bb45-23eb5bc1ff40")
-		)
-		(pin "3"
-			(uuid "9db03380-7fc2-4424-9f9b-7eaaa63bebc0")
-		)
-		(instances
-			(project "bottomPCB"
-				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
-					(reference "Switch1")
 					(unit 1)
 				)
 			)
