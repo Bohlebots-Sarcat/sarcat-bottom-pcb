@@ -8195,6 +8195,18 @@
 		(uuid 02bad8af-defc-4c56-a2d9-e66e13aa3a92)
 	)
 	(rectangle
+		(start 158.75 128.27)
+		(end 201.93 143.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 151246eb-a174-444c-ad9f-1dbe0413fd80)
+	)
+	(rectangle
 		(start 114.3 147.32)
 		(end 157.48 168.91)
 		(stroke
@@ -8585,6 +8597,16 @@
 			)
 		)
 		(uuid "e7da2ea2-4160-47bc-ac84-bf9388ff74a0")
+	)
+	(text "Power Pins"
+		(exclude_from_sim no)
+		(at 196.342 129.794 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f12b788d-89e8-474a-8c9e-d4ff16057b62")
 	)
 	(global_label "LED_B"
 		(shape output)
@@ -11078,6 +11100,73 @@
 		)
 	)
 	(symbol
+		(lib_id "bohlebots.lib:+5V")
+		(at 187.96 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ef7108b-1d5f-4cef-8daf-43776c35eff8")
+		(property "Reference" "#PWR061"
+			(at 184.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 191.77 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 187.96 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfce0129-9d67-40e8-bb46-a19b28f8a65f")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Bohlebots:+3.3V")
 		(at 248.92 48.26 0)
 		(unit 1)
@@ -11138,6 +11227,86 @@
 			(project "bottomPCB"
 				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(at 180.34 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2313e6ad-8280-4826-af2a-d3a6c1dc8367")
+		(property "Reference" "J4"
+			(at 181.61 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x03_Odd_Even"
+			(at 181.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 180.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1d9e8d3-c34d-43c7-8d3d-094592258631")
+		)
+		(pin "6"
+			(uuid "1f5f73ea-0a0e-4f57-9ccc-b3487d02f6c6")
+		)
+		(pin "5"
+			(uuid "ec550795-b3ba-41a2-8a4f-78c0ed0d9b09")
+		)
+		(pin "4"
+			(uuid "72c61cf2-e67f-491a-bd2d-e2027508d03e")
+		)
+		(pin "3"
+			(uuid "819e85f8-0d71-4d28-ae7c-78430f9c0f80")
+		)
+		(pin "2"
+			(uuid "a5ce664a-6102-4492-9916-e4cd0c7cfdef")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -11715,6 +11884,73 @@
 		)
 	)
 	(symbol
+		(lib_id "bohlebots.lib:GND")
+		(at 175.26 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "324686e3-fdc9-46ef-a777-5c5da4015534")
+		(property "Reference" "#PWR057"
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8fc8841-9d34-4822-8a10-c4633d6407cf")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EC-20-flat:EC-20-flat")
 		(at 88.9 55.88 0)
 		(mirror x)
@@ -12143,6 +12379,73 @@
 			(project "bottomPCB"
 				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
 					(reference "Taster_LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:GND")
+		(at 187.96 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ff69d7a-9a6b-45fe-b3bf-a894f9141dc6")
+		(property "Reference" "#PWR056"
+			(at 194.31 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18067c00-324d-48c7-ad69-2696ee1d54fa")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -14142,6 +14445,73 @@
 		)
 	)
 	(symbol
+		(lib_id "bohlebots.lib:+3.3V")
+		(at 187.96 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "841900f9-d9ae-42f9-9c97-e7be1df4f8af")
+		(property "Reference" "#PWR058"
+			(at 184.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 191.77 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 187.96 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e886a287-c70e-4761-8ab0-6eaeef64ec80")
+		)
+		(instances
+			(project ""
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 167.64 162.56 270)
 		(unit 1)
@@ -16091,6 +16461,73 @@
 		)
 	)
 	(symbol
+		(lib_id "bohlebots.lib:+3.3V")
+		(at 175.26 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbc418df-ea50-490f-80bf-c02b3e1be46e")
+		(property "Reference" "#PWR059"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 171.45 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 175.26 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "330fd633-fe8b-43a2-9142-c1b1f9f5e793")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 214.63 97.79 0)
 		(unit 1)
@@ -16218,6 +16655,73 @@
 			(project "bottomPCB"
 				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:+5V")
+		(at 175.26 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4cddd1f-75be-4fac-90bf-e0f3d537945e")
+		(property "Reference" "#PWR060"
+			(at 179.07 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 171.45 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 175.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86a04df9-2e26-4fb7-bf56-ca22a03eb1b4")
+		)
+		(instances
+			(project ""
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
