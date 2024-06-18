@@ -6504,12 +6504,6 @@
 		(uuid "3a258d8e-279a-418a-baa5-7cce5d251a1a")
 	)
 	(junction
-		(at 195.58 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f684696-40f8-4a7a-81af-0bbafc23472c")
-	)
-	(junction
 		(at 248.92 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6610,6 +6604,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e6970b1-2487-4a1d-8482-96d31704411f")
+	)
+	(junction
+		(at 195.58 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e7c6050-3876-427d-b4dd-53b0c33c0a3e")
 	)
 	(junction
 		(at 181.61 149.86)
@@ -6762,8 +6762,16 @@
 		(uuid "2763e43e-61a8-46e6-9752-c1f8022c8ef1")
 	)
 	(no_connect
+		(at 204.47 81.28)
+		(uuid "578c17d0-78f7-42a9-a25f-4aa62d1d714c")
+	)
+	(no_connect
 		(at 168.91 30.48)
 		(uuid "5e26c2f7-8464-4be8-8120-ff276405a225")
+	)
+	(no_connect
+		(at 204.47 68.58)
+		(uuid "6ba6e925-f8b3-4f33-bf03-1c1bb836eeab")
 	)
 	(no_connect
 		(at 173.99 66.04)
@@ -7020,16 +7028,6 @@
 			(type default)
 		)
 		(uuid "134dd562-a6bd-42f2-85f6-30bb145c36ca")
-	)
-	(wire
-		(pts
-			(xy 195.58 67.31) (xy 195.58 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "136aa5e3-3b7d-4dff-9e69-f98f2f2d2af3")
 	)
 	(wire
 		(pts
@@ -7904,6 +7902,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 76.2) (xy 195.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ab1d953-bc8a-427d-8410-1bddf1de4d35")
+	)
+	(wire
+		(pts
 			(xy 267.97 132.08) (xy 267.97 134.62)
 		)
 		(stroke
@@ -8392,6 +8400,16 @@
 			(type default)
 		)
 		(uuid "e9e52274-3577-43d8-88f3-b91f9cc08dbf")
+	)
+	(wire
+		(pts
+			(xy 195.58 67.31) (xy 195.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0495f7-39e2-4c34-8805-29686ccfad37")
 	)
 	(wire
 		(pts
@@ -13591,6 +13609,92 @@
 			(project "bottomPCB"
 				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:XT30_horizontal")
+		(at 200.66 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b4ea470-bead-4ce4-8d0f-720bf0144b2a")
+		(property "Reference" "U3"
+			(at 201.422 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30_horizontal"
+			(at 181.356 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BohleBots:CONN-TH_XT30PW-M"
+			(at 200.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cn.bing.com/search?q=datasheet: XT30PW-M"
+			(at 198.374 74.803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C431092"
+			(at 200.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2347c499-16b7-4b0a-b6f1-b14a7aa59654")
+		)
+		(pin "2"
+			(uuid "b8d8a738-60af-4cbd-bdef-17651e64aa51")
+		)
+		(pin "3"
+			(uuid "2648417b-796b-4480-8b31-73d540af3f18")
+		)
+		(pin "4"
+			(uuid "356bc0e0-3a7a-4bb5-90d7-4864dbe0f37e")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "U3")
 					(unit 1)
 				)
 			)
