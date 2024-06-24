@@ -1,5 +1,4 @@
 (fp_lib_table
   (version 7)
   (lib (name "BohleBots")(type "KiCad")(uri "${KIPRJMOD}/lib/Bohlebots_lib/footprint")(options "")(descr ""))
-  (lib (name "1-84953-1")(type "KiCad")(uri "${KIPRJMOD}/lib/1-84953-1")(options "")(descr ""))
 )
