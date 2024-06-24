@@ -5924,7 +5924,7 @@
 		(uuid "9b4d98cc-cc6a-4659-b782-324d2a738114")
 	)
 	(junction
-		(at 77.47 160.02)
+		(at 104.14 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e6970b1-2487-4a1d-8482-96d31704411f")
@@ -5966,7 +5966,7 @@
 		(uuid "b6c75197-99cf-44b2-8e7c-03f0702525dc")
 	)
 	(junction
-		(at 25.4 157.48)
+		(at 120.65 63.5)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "b7316e13-84dc-42d1-ae3e-2002589f7bb1")
@@ -6089,7 +6089,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 160.02) (xy 77.47 165.1)
+			(xy 104.14 180.34) (xy 104.14 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6159,7 +6159,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 160.02) (xy 80.01 160.02)
+			(xy 104.14 180.34) (xy 106.68 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6199,7 +6199,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 154.94) (xy 77.47 160.02)
+			(xy 104.14 175.26) (xy 104.14 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6219,7 +6219,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 160.02) (xy 92.71 160.02)
+			(xy 116.84 180.34) (xy 119.38 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6279,7 +6279,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 165.1) (xy 92.71 165.1)
+			(xy 116.84 185.42) (xy 119.38 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6349,7 +6349,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 160.02) (xy 109.22 160.02)
+			(xy 129.54 180.34) (xy 135.89 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6369,7 +6369,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 154.94) (xy 80.01 154.94)
+			(xy 104.14 175.26) (xy 106.68 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6660,7 +6660,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 165.1) (xy 80.01 165.1)
+			(xy 104.14 185.42) (xy 106.68 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6680,7 +6680,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 153.67) (xy 25.4 157.48)
+			(xy 120.65 59.69) (xy 120.65 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6701,7 +6701,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 160.02) (xy 77.47 160.02)
+			(xy 101.6 180.34) (xy 104.14 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6711,7 +6711,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 154.94) (xy 109.22 154.94)
+			(xy 129.54 175.26) (xy 135.89 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6901,7 +6901,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 165.1) (xy 109.22 165.1)
+			(xy 129.54 185.42) (xy 135.89 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6961,7 +6961,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 157.48) (xy 25.4 163.83)
+			(xy 120.65 63.5) (xy 120.65 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7002,7 +7002,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 154.94) (xy 92.71 154.94)
+			(xy 116.84 175.26) (xy 119.38 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7033,8 +7033,8 @@
 		(uuid 02bad8af-defc-4c56-a2d9-e66e13aa3a92)
 	)
 	(rectangle
-		(start 46.99 125.73)
-		(end 62.23 168.91)
+		(start 46.99 152.4)
+		(end 90.17 168.91)
 		(stroke
 			(width 0)
 			(type default)
@@ -7177,8 +7177,8 @@
 		(uuid c09b6dc2-fd66-44f0-8c31-9918223d7a3e)
 	)
 	(rectangle
-		(start 63.5 149.86)
-		(end 119.38 168.91)
+		(start 90.17 170.18)
+		(end 146.05 189.23)
 		(stroke
 			(width 0)
 			(type default)
@@ -7213,8 +7213,8 @@
 		(uuid e3145cfe-a51c-427e-8e82-bbabdbc135f4)
 	)
 	(rectangle
-		(start 13.97 125.73)
-		(end 45.72 168.91)
+		(start 111.76 12.7)
+		(end 142.24 77.47)
 		(stroke
 			(width 0)
 			(type default)
@@ -7258,7 +7258,7 @@
 	)
 	(text "LED"
 		(exclude_from_sim no)
-		(at 117.348 151.638 0)
+		(at 144.018 171.958 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7308,7 +7308,7 @@
 	)
 	(text "I2C"
 		(exclude_from_sim no)
-		(at 43.434 127.508 0)
+		(at 140.208 14.478 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7438,13 +7438,35 @@
 	)
 	(text "Power Pins"
 		(exclude_from_sim no)
-		(at 56.134 127.508 0)
+		(at 84.582 153.924 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "f12b788d-89e8-474a-8c9e-d4ff16057b62")
+	)
+	(global_label "PWM1"
+		(shape output)
+		(at 60.96 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01ef47e9-2818-4c7b-ba26-fef22c2b5da1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.3275 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "LED_B"
 		(shape output)
@@ -7470,7 +7492,7 @@
 	)
 	(global_label "P23"
 		(shape input)
-		(at 35.56 140.97 0)
+		(at 132.08 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7480,7 +7502,7 @@
 		)
 		(uuid "0c0f6103-ba89-4542-8907-be0185307cfb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.2342 140.97 0)
+			(at 138.7542 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,28 +7578,6 @@
 			)
 		)
 	)
-	(global_label "DIR1"
-		(shape output)
-		(at 60.96 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "15cc4f04-93c1-47b5-9535-e54e8610538e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.2995 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ENA"
 		(shape input)
 		(at 92.71 45.72 0)
@@ -7618,50 +7618,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DIR2"
-		(shape output)
-		(at 60.96 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1d822d04-8834-4bfe-bfc8-ec2155591057")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.2995 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DIR4"
-		(shape output)
-		(at 60.96 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "21ff097c-4b3d-445e-87aa-21e8d9649cea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.2995 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7712,7 +7668,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 25.4 138.43 180)
+		(at 121.92 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7722,7 +7678,7 @@
 		)
 		(uuid "3880991f-b86c-4174-a404-f983a622526b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.9072 138.43 0)
+			(at 115.4272 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7756,7 +7712,7 @@
 	)
 	(global_label "LED_R"
 		(shape input)
-		(at 109.22 160.02 0)
+		(at 135.89 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7766,7 +7722,7 @@
 		)
 		(uuid "3e32d6c5-a7aa-4727-ab7a-ceeef444d1c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.8899 160.02 0)
+			(at 144.5599 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7778,7 +7734,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 35.56 135.89 0)
+		(at 132.08 24.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7788,7 +7744,7 @@
 		)
 		(uuid "4a9a2966-19e4-4c9d-89cb-bc5f6191f377")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.1133 135.89 0)
+			(at 138.6333 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7822,7 +7778,7 @@
 	)
 	(global_label "LED_G"
 		(shape input)
-		(at 109.22 154.94 0)
+		(at 135.89 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7832,29 +7788,7 @@
 		)
 		(uuid "4d7a0b96-0189-4b32-b785-99810785f873")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.8899 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWM1"
-		(shape output)
-		(at 60.96 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4e41b40e-ffea-464f-8935-b008226db3a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.3275 43.18 0)
+			(at 144.5599 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7930,6 +7864,50 @@
 			)
 		)
 	)
+	(global_label "DIR1"
+		(shape output)
+		(at 60.96 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bd8784d-4837-4913-9570-cab983364943")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.2995 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIR4"
+		(shape output)
+		(at 25.4 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6244dec6-d43a-4453-9d45-e8040fd3f270")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.0605 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 60.96 35.56 0)
@@ -7974,28 +7952,6 @@
 			)
 		)
 	)
-	(global_label "DIR3"
-		(shape output)
-		(at 25.4 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "65e427f1-9598-4931-8feb-ba1281cc778f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.0605 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RX"
 		(shape input)
 		(at 25.4 96.52 180)
@@ -8020,7 +7976,7 @@
 	)
 	(global_label "LED_B"
 		(shape input)
-		(at 109.22 165.1 0)
+		(at 135.89 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8030,7 +7986,7 @@
 		)
 		(uuid "70cf22c2-dd8c-497e-8158-9bb40fc11933")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.8899 165.1 0)
+			(at 144.5599 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8040,7 +7996,7 @@
 			)
 		)
 	)
-	(global_label "PWM2"
+	(global_label "DIR3"
 		(shape output)
 		(at 25.4 48.26 180)
 		(fields_autoplaced yes)
@@ -8052,7 +8008,7 @@
 		)
 		(uuid "70f64b72-e6e5-43e0-946f-50aa3e6eea82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.0325 48.26 0)
+			(at 18.0605 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8097,6 +8053,28 @@
 		(uuid "742d47b1-f550-43ee-b387-9375bcad1bfe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 101.0775 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P23"
+		(shape input)
+		(at 132.08 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "744fdd89-03b0-4686-86a5-52cc38c30be0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.7542 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8168,6 +8146,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM4"
+		(shape output)
+		(at 25.4 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e1181a0-f7f0-4262-829b-c04e20ea7b05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.0325 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 121.92 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e552aca-f8d0-45dc-81bc-998c6774c2f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.4272 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8284,7 +8306,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 35.56 163.83 0)
+		(at 130.81 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8294,7 +8316,7 @@
 		)
 		(uuid "a849b14e-815a-4a15-bc47-26a433203f34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.0528 163.83 0)
+			(at 137.3028 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8306,7 +8328,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 35.56 157.48 0)
+		(at 130.81 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8316,7 +8338,7 @@
 		)
 		(uuid "a916f771-d579-4123-87d6-46b609013cdc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.1133 157.48 0)
+			(at 137.3633 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8502,6 +8524,28 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 132.08 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c030d79e-b318-4ee5-ba7c-51c8d56dcecd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.6333 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DIR2"
 		(shape input)
 		(at 92.71 48.26 0)
@@ -8515,6 +8559,28 @@
 		(uuid "c940beeb-64db-47a0-b5de-086b5d7c3dcb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 100.0495 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM2"
+		(shape output)
+		(at 60.96 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9b01ad3-f767-437f-a664-f7cceb75e3c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.3275 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8634,28 +8700,6 @@
 			)
 		)
 	)
-	(global_label "PWM4"
-		(shape output)
-		(at 25.4 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dd7ffdfc-b5f3-49d6-a6c3-41f2a17fb66c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.0325 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DIR3"
 		(shape input)
 		(at 92.71 71.12 0)
@@ -8696,6 +8740,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIR2"
+		(shape output)
+		(at 60.96 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e420b919-e013-4358-a488-906937ffb9c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.2995 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9835,7 +9901,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:+5V")
-		(at 54.61 139.7 0)
+		(at 60.96 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9844,7 +9910,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ef7108b-1d5f-4cef-8daf-43776c35eff8")
 		(property "Reference" "#PWR061"
-			(at 54.61 143.51 0)
+			(at 64.77 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9853,7 +9919,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 54.6099 135.89 90)
+			(at 57.15 161.2901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9862,7 +9928,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 139.7 0)
+			(at 60.96 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9871,7 +9937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 139.7 0)
+			(at 60.96 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9880,7 +9946,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 54.61 139.7 0)
+			(at 60.96 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9968,7 +10034,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 57.15 147.32 90)
+		(at 68.58 158.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9977,7 +10043,7 @@
 		(fields_autoplaced yes)
 		(uuid "2313e6ad-8280-4826-af2a-d3a6c1dc8367")
 		(property "Reference" "J4"
-			(at 48.26 146.05 0)
+			(at 67.31 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9985,7 +10051,7 @@
 			)
 		)
 		(property "Value" "Conn_02x03_Odd_Even"
-			(at 50.8 146.05 0)
+			(at 67.31 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9993,7 +10059,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
-			(at 57.15 147.32 0)
+			(at 68.58 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10002,7 +10068,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 147.32 0)
+			(at 68.58 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10011,7 +10077,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 57.15 147.32 0)
+			(at 68.58 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10261,7 +10327,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:Pfostenstecker_6_2x3")
-		(at 30.48 138.43 0)
+		(at 127 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10269,7 +10335,7 @@
 		(dnp no)
 		(uuid "282f02ba-ac33-4aa6-8180-6c5faf9302b1")
 		(property "Reference" "I2C1"
-			(at 30.48 128.778 0)
+			(at 127 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10277,7 +10343,7 @@
 			)
 		)
 		(property "Value" "Pfostenstecker_6_2x3"
-			(at 30.48 130.81 0)
+			(at 127 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10285,7 +10351,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:HDR-TH_6P-P2.54-V-F-R2-C3-S2.54-4"
-			(at 30.48 148.59 0)
+			(at 127 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,7 +10361,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230314/29278A24539954283B80828B9C32CD4C.pdf"
-			(at 28.194 138.303 0)
+			(at 124.714 26.543 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10305,7 +10371,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 138.43 0)
+			(at 127 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10314,7 +10380,7 @@
 			)
 		)
 		(property "LCSC" "C5372863"
-			(at 30.48 138.43 0)
+			(at 127 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10485,7 +10551,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:GND")
-		(at 59.69 152.4 0)
+		(at 73.66 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10494,7 +10560,7 @@
 		(fields_autoplaced yes)
 		(uuid "324686e3-fdc9-46ef-a777-5c5da4015534")
 		(property "Reference" "#PWR057"
-			(at 59.69 158.75 0)
+			(at 80.01 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10503,7 +10569,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.6899 156.21 90)
+			(at 77.47 156.2101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10512,7 +10578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 152.4 0)
+			(at 73.66 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10521,7 +10587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 152.4 0)
+			(at 73.66 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10530,7 +10596,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 152.4 0)
+			(at 73.66 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11021,7 +11087,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:GND")
-		(at 59.69 139.7 180)
+		(at 60.96 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11030,7 +11096,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ff69d7a-9a6b-45fe-b3bf-a894f9141dc6")
 		(property "Reference" "#PWR056"
-			(at 59.69 133.35 0)
+			(at 54.61 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11039,7 +11105,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.6899 135.89 90)
+			(at 57.15 156.2101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11048,7 +11114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 139.7 0)
+			(at 60.96 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11057,7 +11123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 139.7 0)
+			(at 60.96 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11066,7 +11132,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 139.7 0)
+			(at 60.96 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11235,7 +11301,7 @@
 	)
 	(symbol
 		(lib_id "Bohlebots:SMD-RGB-LED")
-		(at 85.09 160.02 0)
+		(at 111.76 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11243,7 +11309,7 @@
 		(dnp no)
 		(uuid "4e3322ea-7d49-46f4-8451-0d72c00262a0")
 		(property "Reference" "LED1"
-			(at 72.898 154.432 0)
+			(at 99.568 174.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11251,7 +11317,7 @@
 			)
 		)
 		(property "Value" "led1"
-			(at 74.168 157.734 0)
+			(at 100.838 178.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11259,7 +11325,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
-			(at 87.63 170.18 0)
+			(at 114.3 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11269,7 +11335,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/839886.html"
-			(at 76.2 147.32 0)
+			(at 102.87 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11279,7 +11345,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 160.02 0)
+			(at 111.76 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11288,7 +11354,7 @@
 			)
 		)
 		(property "LCSC" "C784540"
-			(at 80.01 151.13 0)
+			(at 106.68 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11795,6 +11861,73 @@
 		)
 	)
 	(symbol
+		(lib_id "bohlebots.lib:+5V")
+		(at 121.92 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f98c589-0bf1-46df-b29d-9cb649ad6ef9")
+		(property "Reference" "#PWR046"
+			(at 125.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 118.11 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 121.92 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bd220c8-da69-4f6d-b585-2cec9a788313")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:GND")
 		(at 236.22 78.74 90)
 		(unit 1)
@@ -12157,7 +12290,7 @@
 	)
 	(symbol
 		(lib_id "Bohlebots:SMD-220R")
-		(at 97.79 160.02 0)
+		(at 124.46 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12165,7 +12298,7 @@
 		(dnp no)
 		(uuid "673891d4-b276-4217-9065-1ff83fd4d0b7")
 		(property "Reference" "R9"
-			(at 97.79 160.02 0)
+			(at 124.46 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12173,7 +12306,7 @@
 			)
 		)
 		(property "Value" "SMD-220R"
-			(at 104.902 157.226 0)
+			(at 131.572 177.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12181,7 +12314,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:R0603"
-			(at 97.79 170.18 0)
+			(at 124.46 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12191,7 +12324,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-			(at 95.504 159.893 0)
+			(at 122.174 180.213 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12201,7 +12334,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 160.02 0)
+			(at 124.46 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12210,7 +12343,7 @@
 			)
 		)
 		(property "LCSC" "C217883"
-			(at 97.79 160.02 0)
+			(at 124.46 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12235,7 +12368,7 @@
 	)
 	(symbol
 		(lib_id "Bohlebots:SMD-220R")
-		(at 97.79 154.94 0)
+		(at 124.46 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12243,7 +12376,7 @@
 		(dnp no)
 		(uuid "69e1b993-7ced-41e7-84d6-889dfb149971")
 		(property "Reference" "R8"
-			(at 97.79 154.94 0)
+			(at 124.46 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12251,7 +12384,7 @@
 			)
 		)
 		(property "Value" "SMD-220R"
-			(at 104.902 152.4 0)
+			(at 131.572 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12259,7 +12392,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:R0603"
-			(at 97.79 165.1 0)
+			(at 124.46 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12269,7 +12402,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-			(at 95.504 154.813 0)
+			(at 122.174 175.133 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12279,7 +12412,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 154.94 0)
+			(at 124.46 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12288,7 +12421,7 @@
 			)
 		)
 		(property "LCSC" "C217883"
-			(at 97.79 154.94 0)
+			(at 124.46 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12313,7 +12446,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:SMD-10k")
-		(at 30.48 163.83 0)
+		(at 125.73 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12322,7 +12455,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b9dd1df-ce4b-461b-a8e7-0c691d771147")
 		(property "Reference" "R3"
-			(at 30.48 157.48 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12330,7 +12463,7 @@
 			)
 		)
 		(property "Value" "SMD-10k"
-			(at 30.48 160.02 0)
+			(at 125.73 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12338,7 +12471,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:R0603"
-			(at 30.48 173.99 0)
+			(at 125.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12348,7 +12481,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-			(at 21.082 168.148 0)
+			(at 116.332 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12358,7 +12491,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 163.83 0)
+			(at 125.73 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12367,7 +12500,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 30.48 163.83 0)
+			(at 125.73 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12677,7 +12810,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:+3.3V")
-		(at 25.4 153.67 0)
+		(at 120.65 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12686,7 +12819,7 @@
 		(fields_autoplaced yes)
 		(uuid "8180e3e3-54b1-4767-87f9-1717e9ac519a")
 		(property "Reference" "#PWR022"
-			(at 25.4 157.48 0)
+			(at 120.65 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12695,7 +12828,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 25.4 148.59 0)
+			(at 120.65 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12703,7 +12836,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 153.67 0)
+			(at 120.65 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12712,7 +12845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 153.67 0)
+			(at 120.65 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12721,7 +12854,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 25.4 153.67 0)
+			(at 120.65 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12875,7 +13008,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:+3.3V")
-		(at 57.15 139.7 0)
+		(at 60.96 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12884,7 +13017,7 @@
 		(fields_autoplaced yes)
 		(uuid "841900f9-d9ae-42f9-9c97-e7be1df4f8af")
 		(property "Reference" "#PWR058"
-			(at 57.15 143.51 0)
+			(at 64.77 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12893,7 +13026,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 57.1499 135.89 90)
+			(at 57.15 158.7501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12902,7 +13035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 139.7 0)
+			(at 60.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12911,7 +13044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 139.7 0)
+			(at 60.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12920,7 +13053,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 57.15 139.7 0)
+			(at 60.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13078,7 +13211,7 @@
 	)
 	(symbol
 		(lib_id "Bohlebots:+3.3V")
-		(at 74.93 160.02 90)
+		(at 101.6 180.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13087,7 +13220,7 @@
 		(fields_autoplaced yes)
 		(uuid "87d9cabb-a005-4010-9806-149a3944eb78")
 		(property "Reference" "#PWR053"
-			(at 78.74 160.02 0)
+			(at 105.41 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13096,7 +13229,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 71.12 160.02 90)
+			(at 97.79 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13105,7 +13238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 160.02 0)
+			(at 101.6 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13114,7 +13247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 160.02 0)
+			(at 101.6 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13123,7 +13256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 74.93 160.02 0)
+			(at 101.6 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13278,8 +13411,98 @@
 		)
 	)
 	(symbol
+		(lib_id "bohlebots.lib:Pfostenstecker_6_2x3")
+		(at 127 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93c5c57c-e435-4c7f-b207-26ed2e718c73")
+		(property "Reference" "I2C2"
+			(at 127 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pfostenstecker_6_2x3"
+			(at 127 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BohleBots:HDR-TH_6P-P2.54-V-F-R2-C3-S2.54-4"
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230314/29278A24539954283B80828B9C32CD4C.pdf"
+			(at 124.714 44.323 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5372863"
+			(at 127 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "260305e2-f39c-4b98-a11f-e4158d5d387a")
+		)
+		(pin "2"
+			(uuid "7e64f69c-4413-4fe3-930d-d3a6fdc1c57f")
+		)
+		(pin "5"
+			(uuid "91c81f9b-935c-4cf4-b10d-5124a76a2a36")
+		)
+		(pin "3"
+			(uuid "75cac422-364f-4186-bbe7-b0c722e255bd")
+		)
+		(pin "4"
+			(uuid "e35cd51d-3801-4503-adf5-391033ec6694")
+		)
+		(pin "6"
+			(uuid "24c462b7-07bf-4152-b65f-f42f08ff9094")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "I2C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:+5V")
-		(at 25.4 140.97 90)
+		(at 121.92 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13288,7 +13511,7 @@
 		(fields_autoplaced yes)
 		(uuid "9512dbed-7f25-4698-bff7-5955331da901")
 		(property "Reference" "#PWR021"
-			(at 29.21 140.97 0)
+			(at 125.73 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13297,7 +13520,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 21.59 140.9699 90)
+			(at 118.11 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13306,7 +13529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 140.97 0)
+			(at 121.92 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13315,7 +13538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 140.97 0)
+			(at 121.92 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13324,7 +13547,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 25.4 140.97 0)
+			(at 121.92 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13679,7 +13902,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:SMD-10k")
-		(at 30.48 157.48 0)
+		(at 125.73 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13688,7 +13911,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2372e19-ed18-4e14-a6c7-b754dcc5ca45")
 		(property "Reference" "R2"
-			(at 30.48 151.13 0)
+			(at 125.73 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13696,7 +13919,7 @@
 			)
 		)
 		(property "Value" "SMD-10k"
-			(at 30.48 153.67 0)
+			(at 125.73 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13704,7 +13927,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:R0603"
-			(at 30.48 167.64 0)
+			(at 125.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13714,7 +13937,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-			(at 21.082 161.798 0)
+			(at 116.332 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13724,7 +13947,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 157.48 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13733,7 +13956,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 30.48 157.48 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14058,7 +14281,7 @@
 	)
 	(symbol
 		(lib_id "Bohlebots:SMD-220R")
-		(at 97.79 165.1 0)
+		(at 124.46 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14066,7 +14289,7 @@
 		(dnp no)
 		(uuid "aa45b650-2289-42ed-ac2b-2bc0ff588072")
 		(property "Reference" "R10"
-			(at 97.79 165.1 0)
+			(at 124.46 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14074,7 +14297,7 @@
 			)
 		)
 		(property "Value" "SMD-220R"
-			(at 104.902 162.306 0)
+			(at 131.572 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14082,7 +14305,7 @@
 			)
 		)
 		(property "Footprint" "BohleBots:R0603"
-			(at 97.79 175.26 0)
+			(at 124.46 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14092,7 +14315,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-			(at 95.504 164.973 0)
+			(at 122.174 185.293 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14102,7 +14325,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 165.1 0)
+			(at 124.46 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14111,7 +14334,7 @@
 			)
 		)
 		(property "LCSC" "C217883"
-			(at 97.79 165.1 0)
+			(at 124.46 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14335,7 +14558,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:+3.3V")
-		(at 25.4 135.89 90)
+		(at 121.92 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14344,7 +14567,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5964935-b0fe-4765-baad-59a9e6801c28")
 		(property "Reference" "#PWR017"
-			(at 29.21 135.89 0)
+			(at 125.73 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14353,7 +14576,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 21.59 135.8899 90)
+			(at 118.11 24.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14362,7 +14585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 135.89 0)
+			(at 121.92 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14371,7 +14594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 135.89 0)
+			(at 121.92 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14380,7 +14603,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 25.4 135.89 0)
+			(at 121.92 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14547,7 +14770,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:+3.3V")
-		(at 57.15 152.4 180)
+		(at 73.66 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14556,7 +14779,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbc418df-ea50-490f-80bf-c02b3e1be46e")
 		(property "Reference" "#PWR059"
-			(at 57.15 148.59 0)
+			(at 69.85 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14565,7 +14788,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 57.1499 156.21 90)
+			(at 77.47 158.7501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14574,7 +14797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 152.4 0)
+			(at 73.66 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14583,7 +14806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 152.4 0)
+			(at 73.66 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14592,7 +14815,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 57.15 152.4 0)
+			(at 73.66 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14747,7 +14970,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:+5V")
-		(at 54.61 152.4 180)
+		(at 73.66 161.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14756,7 +14979,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4cddd1f-75be-4fac-90bf-e0f3d537945e")
 		(property "Reference" "#PWR060"
-			(at 54.61 148.59 0)
+			(at 69.85 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14765,7 +14988,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 54.6099 156.21 90)
+			(at 77.47 161.2901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14774,7 +14997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 152.4 0)
+			(at 73.66 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14783,7 +15006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 152.4 0)
+			(at 73.66 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14792,7 +15015,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 54.61 152.4 0)
+			(at 73.66 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14955,6 +15178,73 @@
 			(project "bottomPCB"
 				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bohlebots.lib:+3.3V")
+		(at 121.92 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc5d1eae-91f2-4a20-8f56-731dbaf3c22d")
+		(property "Reference" "#PWR045"
+			(at 125.73 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 118.11 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 121.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa2e5d5b-6467-4f60-8780-9524d3432875")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -16083,6 +16373,73 @@
 		)
 	)
 	(symbol
+		(lib_id "bohlebots.lib:GND")
+		(at 132.08 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef40cf34-83b3-4cce-8005-a140eaa1f8bc")
+		(property "Reference" "#PWR047"
+			(at 138.43 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2eb30669-e09f-4ed9-967b-d2e1c35e6fa9")
+		)
+		(instances
+			(project "bottomPCB"
+				(path "/530b96b6-d439-440e-a48e-82f0fe8f4bb1"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bohlebots.lib:KICKER")
 		(at 190.5 135.89 0)
 		(unit 1)
@@ -16492,7 +16849,7 @@
 	)
 	(symbol
 		(lib_id "bohlebots.lib:GND")
-		(at 35.56 138.43 90)
+		(at 132.08 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16501,7 +16858,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe053db5-fc3a-4b09-86fd-78a5e9ad2c6b")
 		(property "Reference" "#PWR020"
-			(at 41.91 138.43 0)
+			(at 138.43 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16510,7 +16867,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 138.4299 90)
+			(at 135.89 26.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16519,7 +16876,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 138.43 0)
+			(at 132.08 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16528,7 +16885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 138.43 0)
+			(at 132.08 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16537,7 +16894,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 138.43 0)
+			(at 132.08 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
