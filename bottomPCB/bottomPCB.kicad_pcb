@@ -206,6 +206,12 @@
 	(net 85 "Net-(A1-Pad1)")
 	(net 86 "unconnected-(U3-Pad3)")
 	(net 87 "unconnected-(U3-Pad4)")
+	(net 88 "unconnected-(ESCON-V1-GND-Pad5)")
+	(net 89 "unconnected-(ESCON-V1-VCC-Pad6)")
+	(net 90 "unconnected-(ESCON-V1-D1-Pad1)")
+	(net 91 "unconnected-(ESCON-V1-D3-Pad3)")
+	(net 92 "unconnected-(ESCON-V1-D4-Pad4)")
+	(net 93 "unconnected-(ESCON-V1-D2-Pad2)")
 	(footprint "BohleBots:SOT-223_L6.5-W3.5-P2.30-LS7.0-BR"
 		(layer "F.Cu")
 		(uuid "13a6d4f8-8e1c-4110-bad7-610564792488")
@@ -3301,7 +3307,7 @@
 		)
 		(fp_arc
 			(start 1.390018 0.400203)
-			(mid 1.299267 0.619284)
+			(mid 1.299267 0.61928)
 			(end 1.080188 0.710033)
 			(stroke
 				(width 0.254)
@@ -4720,7 +4726,7 @@
 		(descr "JST PH series connector, B8B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH side entry")
 		(property "Reference" "JP2"
-			(at 7 -2.9 270)
+			(at 7 -2.9 -90)
 			(layer "F.SilkS")
 			(uuid "f081d4a1-7c1e-4fa6-beb9-1f7419687eca")
 			(effects
@@ -4731,7 +4737,7 @@
 			)
 		)
 		(property "Value" "B8B-PH-K"
-			(at 7 4.000001 270)
+			(at 7 4.000001 -90)
 			(layer "F.Fab")
 			(uuid "9d395ca2-1467-4a24-b8ea-fa81dcde1835")
 			(effects
@@ -4750,6 +4756,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4762,6 +4769,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4774,6 +4782,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5372,7 +5381,7 @@
 			(uuid "533b5656-ce35-4cbf-82a7-868f91efbb6e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7 1.5 270)
+			(at 7 1.5 -90)
 			(layer "F.Fab")
 			(uuid "036a5ce4-4fe4-475b-adb2-adf24f2b64bf")
 			(effects
@@ -5941,6 +5950,173 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "sarcat:ESCON-V"
+		(layer "F.Cu")
+		(uuid "93f1a60e-9298-40e5-93df-51b48b756075")
+		(at 118.3786 98.0348)
+		(property "Reference" "ESCON-V1"
+			(at -4.4958 -16.6878 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0f336ad9-1546-4665-b967-ec26af069b6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2 -9 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3b818f5d-027a-4258-9644-fa820143e5d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "sarcat:ESCON-V"
+			(at -2 -10 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4799b99e-3750-403b-8102-39957c8b7d01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2 -10 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca242a90-c17b-4e37-b652-edf68fa7a986")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at -2 -10 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5b7eb5e-97b5-4a39-95cf-805e2d6a58d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/062dbef5-d2b4-4839-87e2-245ae5faa0ad")
+		(sheetname "Root")
+		(sheetfile "bottomPCB.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7.0612 -17.82)
+			(end 7.0612 17.82)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "5ab89fc3-617f-4270-8591-6844c16a5ee0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2 -7.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d6306edf-ab7b-4a0a-a779-be8165ba9194")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 6.1214 -1.5748 90)
+			(size 1.308 1.308)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 90 "unconnected-(ESCON-V1-D1-Pad1)")
+			(pinfunction "D1")
+			(pintype "input")
+			(thermal_bridge_angle 45)
+			(uuid "6c7e6c66-dfa7-44fc-8af2-6fb915b23b89")
+		)
+		(pad "2" thru_hole rect
+			(at 6.1214 -4.1148 90)
+			(size 1.308 1.308)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 93 "unconnected-(ESCON-V1-D2-Pad2)")
+			(pinfunction "D2")
+			(pintype "input")
+			(thermal_bridge_angle 45)
+			(uuid "d54f0e6c-916d-41b7-b3d0-514d6b73baec")
+		)
+		(pad "3" thru_hole rect
+			(at 6.1214 -6.6548 90)
+			(size 1.308 1.308)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 91 "unconnected-(ESCON-V1-D3-Pad3)")
+			(pinfunction "D3")
+			(pintype "input")
+			(thermal_bridge_angle 45)
+			(uuid "ac8daf65-9244-4ae7-b7c3-1697eda5ed50")
+		)
+		(pad "4" thru_hole rect
+			(at 6.1214 -9.1948 90)
+			(size 1.308 1.308)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 92 "unconnected-(ESCON-V1-D4-Pad4)")
+			(pinfunction "D4")
+			(pintype "input")
+			(thermal_bridge_angle 45)
+			(uuid "c8b873ec-374e-43fa-bed3-009030d727d0")
+		)
+		(pad "5" thru_hole rect
+			(at 6.1214 0.9652 90)
+			(size 1.308 1.308)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 88 "unconnected-(ESCON-V1-GND-Pad5)")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(thermal_bridge_angle 45)
+			(uuid "2c0168a2-f82b-4179-ac92-e677531c8d66")
+		)
+		(pad "6" thru_hole rect
+			(at 6.1214 -11.7348 90)
+			(size 1.308 1.308)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 89 "unconnected-(ESCON-V1-VCC-Pad6)")
+			(pinfunction "VCC")
+			(pintype "power_in")
+			(thermal_bridge_angle 45)
+			(uuid "694bbcf7-c7e3-4c04-bafd-3c1a1158acc3")
 		)
 	)
 	(footprint "BohleBots:D36V28FX"
@@ -8258,6 +8434,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8270,6 +8447,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8282,6 +8460,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9726,7 +9905,7 @@
 		(descr "CONN-TH_XT30PW-M footprint")
 		(tags "CONN-TH_XT30PW-M footprint")
 		(property "Reference" "U3"
-			(at -0.000127 -7 270)
+			(at -0.000127 -7 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c211f392-5d1c-4150-a401-b12cf5d08e50")
@@ -9738,7 +9917,7 @@
 			)
 		)
 		(property "Value" "XT30_horizontal"
-			(at -0.000127 10.149606 270)
+			(at -0.000127 10.149606 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d857b4a9-5c10-4d06-ba5b-5db778d1d138")
@@ -9758,6 +9937,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9770,6 +9950,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9782,6 +9963,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10105,7 +10287,7 @@
 			(uuid "f47d537d-4adc-48c8-914e-76baa58dff86")
 		)
 		(fp_text user "REF**"
-			(at -0.000127 12.149606 270)
+			(at -0.000127 12.149606 -90)
 			(layer "F.Fab")
 			(uuid "2d573b07-1875-4fa2-bc42-0476be06a862")
 			(effects
@@ -11538,7 +11720,7 @@
 		)
 		(fp_arc
 			(start 1.390018 0.400203)
-			(mid 1.299267 0.619284)
+			(mid 1.299267 0.61928)
 			(end 1.080188 0.710033)
 			(stroke
 				(width 0.254)
@@ -11647,6 +11829,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11659,6 +11842,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11671,6 +11855,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12417,6 +12602,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12429,6 +12615,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12441,6 +12628,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13478,6 +13666,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13490,6 +13679,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13502,6 +13692,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
