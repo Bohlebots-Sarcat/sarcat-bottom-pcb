@@ -2382,7 +2382,7 @@
 		(descr "WIFIM-SMD_ESP32-WROOM-32-N4 footprint")
 		(tags "WIFIM-SMD_ESP32-WROOM-32-N4 footprint")
 		(property "Reference" "U1"
-			(at -1.285 -5.930001 180)
+			(at -0.269647 -5.828512 180)
 			(layer "F.SilkS")
 			(uuid "b9d892f5-e9e6-499e-b17f-64f84dfe81da")
 			(effects
@@ -6536,7 +6536,7 @@
 		(descr "R0603 footprint")
 		(tags "R0603 footprint")
 		(property "Reference" "R4"
-			(at 0.253366 1.5 0)
+			(at -2.5 -0.04 0)
 			(layer "F.SilkS")
 			(uuid "eeb312b8-d503-4b96-9447-9de9dc127959")
 			(effects
@@ -8462,7 +8462,7 @@
 			(uuid "51e9cdf4-38ac-4c19-86f5-d55f601a925f")
 		)
 		(fp_text user "Kicker"
-			(at 9.271 -14.224 90)
+			(at 14.5 -17 180)
 			(layer "F.SilkS")
 			(uuid "404abe8d-9835-4e18-9535-97356ae9bef8")
 			(effects
@@ -11892,6 +11892,91 @@
 		(fill none)
 		(layer "User.9")
 		(uuid "9f526c82-7c31-492f-98cb-157e26065621")
+	)
+	(gr_text "12\n13"
+		(at -2.5 28.5 0)
+		(layer "F.SilkS")
+		(uuid "12917cf2-6ee3-4f34-8d36-d9b48eb2f341")
+		(effects
+			(font
+				(size 1.54 1.54)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "39 34 35\n"
+		(at -15.5 23 0)
+		(layer "F.SilkS")
+		(uuid "3f296432-34c9-437d-ad21-6a9c66172996")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND\n+3.3V\n+5V"
+		(at 83 6.5 90)
+		(layer "F.SilkS")
+		(uuid "615ed787-3f2d-4d68-aa76-172ecee0b61e")
+		(effects
+			(font
+				(size 1.54 1.54)
+				(thickness 0.1)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "-\n\n+"
+		(at 88 -4 0)
+		(layer "F.SilkS")
+		(uuid "6e97506e-5a90-4b0c-bcd7-5f81cc820cca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND-\n"
+		(at -24.5 28.5 0)
+		(layer "F.SilkS")
+		(uuid "c147acc9-b36b-43ee-95bf-f0995e5b1de7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "LB\n"
+		(at -20 23 0)
+		(layer "F.SilkS")
+		(uuid "e881f50d-0b96-4bec-9de3-1274c0725050")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-   +\n"
+		(at -80.5 10 -90)
+		(layer "F.SilkS")
+		(uuid "efc34900-bc65-4f67-a669-3231ae5f8e4b")
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.22)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 5.054611 22.554611)
