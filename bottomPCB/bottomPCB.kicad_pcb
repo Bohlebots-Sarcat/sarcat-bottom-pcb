@@ -4658,7 +4658,7 @@
 		)
 		(fp_arc
 			(start 1.390018 0.400203)
-			(mid 1.299267 0.61928)
+			(mid 1.299267 0.619284)
 			(end 1.080188 0.710033)
 			(stroke
 				(width 0.254)
@@ -17641,7 +17641,7 @@
 			(uuid "80ff2cbf-75bd-4a90-b914-caa7c725b4d2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.270001 360)
+			(at 0 1.270001 0)
 			(layer "F.Fab")
 			(uuid "18e5fa3f-d5b1-48b5-b651-74073ca946ee")
 			(effects
@@ -21099,7 +21099,7 @@
 		)
 		(fp_arc
 			(start 1.390018 0.400203)
-			(mid 1.299267 0.61928)
+			(mid 1.299267 0.619284)
 			(end 1.080188 0.710033)
 			(stroke
 				(width 0.254)
@@ -29117,8 +29117,8 @@
 		(uuid "dc6ced87-7a45-459e-85d8-5af663bd71f5")
 	)
 	(gr_rect
-		(start 0 -81)
-		(end 20 -11)
+		(start 0 -73.5)
+		(end 20 -3.5)
 		(stroke
 			(width 0.1)
 			(type solid)
